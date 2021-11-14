@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"M:\\Unreal\\AnDun\\andun\\Source\\andun\\andun.Build.cs",
-		"M:\\Unreal\\AnDun\\andun\\Source\\andun.Target.cs",
-		"M:\\Unreal\\AnDun\\andun\\Source\\andunEditor.Target.cs"
-	],
-	"EngineVersion": "4.27.0"
-}

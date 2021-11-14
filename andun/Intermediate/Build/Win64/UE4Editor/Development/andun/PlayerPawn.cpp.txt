@@ -1,7 +1,0 @@
-M:\Unreal\AnDun\andun\Intermediate\Build\Win64\UE4Editor\Development\andun\Definitions.andun.h
-M:\Unreal\AnDun\andun\Source\andun\PlayerPawn.h
-M:\Unreal\AnDun\andun\Intermediate\Build\Win64\UE4Editor\Inc\andun\PlayerPawn.generated.h
-M:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
-M:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
-M:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
-M:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
