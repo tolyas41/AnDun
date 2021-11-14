@@ -34,6 +34,11 @@ void EmptyLinkFunctionForGeneratedCodeControl() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IsInBattle_MetaData[];
+#endif
+		static void NewProp_IsInBattle_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsInBattle;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ControlledUnitClass_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ControlledUnitClass;
@@ -53,6 +58,16 @@ void EmptyLinkFunctionForGeneratedCodeControl() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AControl_Statics::NewProp_IsInBattle_MetaData[] = {
+		{ "ModuleRelativePath", "Control.h" },
+	};
+#endif
+	void Z_Construct_UClass_AControl_Statics::NewProp_IsInBattle_SetBit(void* Obj)
+	{
+		((AControl*)Obj)->IsInBattle = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AControl_Statics::NewProp_IsInBattle = { "IsInBattle", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AControl), &Z_Construct_UClass_AControl_Statics::NewProp_IsInBattle_SetBit, METADATA_PARAMS(Z_Construct_UClass_AControl_Statics::NewProp_IsInBattle_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AControl_Statics::NewProp_IsInBattle_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AControl_Statics::NewProp_ControlledUnitClass_MetaData[] = {
 		{ "Category", "Control" },
 		{ "ModuleRelativePath", "Control.h" },
@@ -60,6 +75,7 @@ void EmptyLinkFunctionForGeneratedCodeControl() {}
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AControl_Statics::NewProp_ControlledUnitClass = { "ControlledUnitClass", nullptr, (EPropertyFlags)0x0014000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AControl, ControlledUnitClass), Z_Construct_UClass_ADungeonChar_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AControl_Statics::NewProp_ControlledUnitClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AControl_Statics::NewProp_ControlledUnitClass_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AControl_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AControl_Statics::NewProp_IsInBattle,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AControl_Statics::NewProp_ControlledUnitClass,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AControl_Statics::StaticCppClassTypeInfo = {
@@ -89,7 +105,7 @@ void EmptyLinkFunctionForGeneratedCodeControl() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AControl, 2082339581);
+	IMPLEMENT_CLASS(AControl, 2305832564);
 	template<> ANDUN_API UClass* StaticClass<AControl>()
 	{
 		return AControl::StaticClass();

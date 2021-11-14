@@ -8,6 +8,8 @@
 
 DECLARE_EVENT(AandunGameModeBase, FEncounterEvent)
 
+class AEnemy;
+
 UCLASS()
 class ANDUN_API AandunGameModeBase : public AGameModeBase
 {
@@ -21,4 +23,17 @@ public:
 	
 	FEncounterEvent EncounterEvent;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TSubclassOf<AEnemy> FirstEnemyClass;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TSubclassOf<AEnemy> SecondEnemyClass;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TSubclassOf<AEnemy> ThirdEnemyClass;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TSubclassOf<AEnemy> FourthEnemyClass;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TSubclassOf<AActor> FirstHero;
+
+	UFUNCTION()
+	void SpawnEnemy();
 };

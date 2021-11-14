@@ -27,4 +27,7 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	void MoveForward(float Value);
+
+	UPROPERTY(EditAnywhere)
+	float Damage = 50.0f;
 };

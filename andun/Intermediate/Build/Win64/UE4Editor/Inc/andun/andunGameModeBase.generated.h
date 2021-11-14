@@ -13,18 +13,20 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ANDUN_andunGameModeBase_generated_h
 
-#define andun_Source_andun_andunGameModeBase_h_14_SPARSE_DATA
-#define andun_Source_andun_andunGameModeBase_h_14_RPC_WRAPPERS \
+#define andun_Source_andun_andunGameModeBase_h_16_SPARSE_DATA
+#define andun_Source_andun_andunGameModeBase_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execSpawnEnemy); \
 	DECLARE_FUNCTION(execStartEncounter);
 
 
-#define andun_Source_andun_andunGameModeBase_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define andun_Source_andun_andunGameModeBase_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execSpawnEnemy); \
 	DECLARE_FUNCTION(execStartEncounter);
 
 
-#define andun_Source_andun_andunGameModeBase_h_14_INCLASS_NO_PURE_DECLS \
+#define andun_Source_andun_andunGameModeBase_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAandunGameModeBase(); \
 	friend struct Z_Construct_UClass_AandunGameModeBase_Statics; \
@@ -33,7 +35,7 @@ public: \
 	DECLARE_SERIALIZER(AandunGameModeBase)
 
 
-#define andun_Source_andun_andunGameModeBase_h_14_INCLASS \
+#define andun_Source_andun_andunGameModeBase_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAandunGameModeBase(); \
 	friend struct Z_Construct_UClass_AandunGameModeBase_Statics; \
@@ -42,7 +44,7 @@ public: \
 	DECLARE_SERIALIZER(AandunGameModeBase)
 
 
-#define andun_Source_andun_andunGameModeBase_h_14_STANDARD_CONSTRUCTORS \
+#define andun_Source_andun_andunGameModeBase_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AandunGameModeBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AandunGameModeBase) \
@@ -55,7 +57,7 @@ private: \
 public:
 
 
-#define andun_Source_andun_andunGameModeBase_h_14_ENHANCED_CONSTRUCTORS \
+#define andun_Source_andun_andunGameModeBase_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AandunGameModeBase(AandunGameModeBase&&); \
@@ -66,28 +68,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AandunGameModeBase)
 
 
-#define andun_Source_andun_andunGameModeBase_h_14_PRIVATE_PROPERTY_OFFSET
-#define andun_Source_andun_andunGameModeBase_h_11_PROLOG
-#define andun_Source_andun_andunGameModeBase_h_14_GENERATED_BODY_LEGACY \
+#define andun_Source_andun_andunGameModeBase_h_16_PRIVATE_PROPERTY_OFFSET
+#define andun_Source_andun_andunGameModeBase_h_13_PROLOG
+#define andun_Source_andun_andunGameModeBase_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	andun_Source_andun_andunGameModeBase_h_14_PRIVATE_PROPERTY_OFFSET \
-	andun_Source_andun_andunGameModeBase_h_14_SPARSE_DATA \
-	andun_Source_andun_andunGameModeBase_h_14_RPC_WRAPPERS \
-	andun_Source_andun_andunGameModeBase_h_14_INCLASS \
-	andun_Source_andun_andunGameModeBase_h_14_STANDARD_CONSTRUCTORS \
+	andun_Source_andun_andunGameModeBase_h_16_PRIVATE_PROPERTY_OFFSET \
+	andun_Source_andun_andunGameModeBase_h_16_SPARSE_DATA \
+	andun_Source_andun_andunGameModeBase_h_16_RPC_WRAPPERS \
+	andun_Source_andun_andunGameModeBase_h_16_INCLASS \
+	andun_Source_andun_andunGameModeBase_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define andun_Source_andun_andunGameModeBase_h_14_GENERATED_BODY \
+#define andun_Source_andun_andunGameModeBase_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	andun_Source_andun_andunGameModeBase_h_14_PRIVATE_PROPERTY_OFFSET \
-	andun_Source_andun_andunGameModeBase_h_14_SPARSE_DATA \
-	andun_Source_andun_andunGameModeBase_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	andun_Source_andun_andunGameModeBase_h_14_INCLASS_NO_PURE_DECLS \
-	andun_Source_andun_andunGameModeBase_h_14_ENHANCED_CONSTRUCTORS \
+	andun_Source_andun_andunGameModeBase_h_16_PRIVATE_PROPERTY_OFFSET \
+	andun_Source_andun_andunGameModeBase_h_16_SPARSE_DATA \
+	andun_Source_andun_andunGameModeBase_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	andun_Source_andun_andunGameModeBase_h_16_INCLASS_NO_PURE_DECLS \
+	andun_Source_andun_andunGameModeBase_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

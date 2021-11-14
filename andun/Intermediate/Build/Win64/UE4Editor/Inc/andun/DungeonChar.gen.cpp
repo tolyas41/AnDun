@@ -31,6 +31,11 @@ void EmptyLinkFunctionForGeneratedCodeDungeonChar() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Damage_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Damage;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +50,16 @@ void EmptyLinkFunctionForGeneratedCodeDungeonChar() {}
 		{ "ModuleRelativePath", "DungeonChar.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADungeonChar_Statics::NewProp_Damage_MetaData[] = {
+		{ "Category", "DungeonChar" },
+		{ "ModuleRelativePath", "DungeonChar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ADungeonChar_Statics::NewProp_Damage = { "Damage", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADungeonChar, Damage), METADATA_PARAMS(Z_Construct_UClass_ADungeonChar_Statics::NewProp_Damage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ADungeonChar_Statics::NewProp_Damage_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ADungeonChar_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADungeonChar_Statics::NewProp_Damage,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ADungeonChar_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ADungeonChar>::IsAbstract,
 	};
@@ -54,11 +69,11 @@ void EmptyLinkFunctionForGeneratedCodeDungeonChar() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_ADungeonChar_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ADungeonChar_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ADungeonChar_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ADungeonChar_Statics::Class_MetaDataParams))
@@ -72,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeDungeonChar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADungeonChar, 52234899);
+	IMPLEMENT_CLASS(ADungeonChar, 400684496);
 	template<> ANDUN_API UClass* StaticClass<ADungeonChar>()
 	{
 		return ADungeonChar::StaticClass();

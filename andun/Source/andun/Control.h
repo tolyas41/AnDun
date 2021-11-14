@@ -7,6 +7,7 @@
 #include "Control.generated.h"
 
 class ADungeonChar;
+class AEnemy;
 
 UCLASS()
 class ANDUN_API AControl : public APlayerController
@@ -19,14 +20,21 @@ protected:
 
 private:
 	void MoveForward(float Value);
+	void Attack();
+	void SelectTarget();
 
 public:
+	UPROPERTY()
+	bool IsInBattle;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TSubclassOf<ADungeonChar> ControlledUnitClass;
 
 	TArray<AActor*> CharArray;
+	TArray<AActor*> EnemyArray;
 	ADungeonChar* Char1;
 	ADungeonChar* Char2;
 	ADungeonChar* Char3;
 	ADungeonChar* Char4;
+
+	AEnemy* TargetEnemy;
 };

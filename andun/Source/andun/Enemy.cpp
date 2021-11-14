@@ -16,6 +16,7 @@ void AEnemy::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	Health = 100.0f;
 }
 
 // Called every frame

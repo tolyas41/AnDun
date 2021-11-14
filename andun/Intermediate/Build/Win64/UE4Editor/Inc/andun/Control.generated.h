@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ANDUN_Control_generated_h
 
-#define andun_Source_andun_Control_h_14_SPARSE_DATA
-#define andun_Source_andun_Control_h_14_RPC_WRAPPERS
-#define andun_Source_andun_Control_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define andun_Source_andun_Control_h_14_INCLASS_NO_PURE_DECLS \
+#define andun_Source_andun_Control_h_15_SPARSE_DATA
+#define andun_Source_andun_Control_h_15_RPC_WRAPPERS
+#define andun_Source_andun_Control_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define andun_Source_andun_Control_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAControl(); \
 	friend struct Z_Construct_UClass_AControl_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AControl)
 
 
-#define andun_Source_andun_Control_h_14_INCLASS \
+#define andun_Source_andun_Control_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAControl(); \
 	friend struct Z_Construct_UClass_AControl_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AControl)
 
 
-#define andun_Source_andun_Control_h_14_STANDARD_CONSTRUCTORS \
+#define andun_Source_andun_Control_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AControl(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AControl) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define andun_Source_andun_Control_h_14_ENHANCED_CONSTRUCTORS \
+#define andun_Source_andun_Control_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AControl(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,28 +60,28 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AControl)
 
 
-#define andun_Source_andun_Control_h_14_PRIVATE_PROPERTY_OFFSET
-#define andun_Source_andun_Control_h_11_PROLOG
-#define andun_Source_andun_Control_h_14_GENERATED_BODY_LEGACY \
+#define andun_Source_andun_Control_h_15_PRIVATE_PROPERTY_OFFSET
+#define andun_Source_andun_Control_h_12_PROLOG
+#define andun_Source_andun_Control_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	andun_Source_andun_Control_h_14_PRIVATE_PROPERTY_OFFSET \
-	andun_Source_andun_Control_h_14_SPARSE_DATA \
-	andun_Source_andun_Control_h_14_RPC_WRAPPERS \
-	andun_Source_andun_Control_h_14_INCLASS \
-	andun_Source_andun_Control_h_14_STANDARD_CONSTRUCTORS \
+	andun_Source_andun_Control_h_15_PRIVATE_PROPERTY_OFFSET \
+	andun_Source_andun_Control_h_15_SPARSE_DATA \
+	andun_Source_andun_Control_h_15_RPC_WRAPPERS \
+	andun_Source_andun_Control_h_15_INCLASS \
+	andun_Source_andun_Control_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define andun_Source_andun_Control_h_14_GENERATED_BODY \
+#define andun_Source_andun_Control_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	andun_Source_andun_Control_h_14_PRIVATE_PROPERTY_OFFSET \
-	andun_Source_andun_Control_h_14_SPARSE_DATA \
-	andun_Source_andun_Control_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	andun_Source_andun_Control_h_14_INCLASS_NO_PURE_DECLS \
-	andun_Source_andun_Control_h_14_ENHANCED_CONSTRUCTORS \
+	andun_Source_andun_Control_h_15_PRIVATE_PROPERTY_OFFSET \
+	andun_Source_andun_Control_h_15_SPARSE_DATA \
+	andun_Source_andun_Control_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	andun_Source_andun_Control_h_15_INCLASS_NO_PURE_DECLS \
+	andun_Source_andun_Control_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
