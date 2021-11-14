@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\andun.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{E84F7157-C2CD-43FE-95ED-91CD7EECFA24}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\andun.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\andunEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{EAF0C891-549E-4C36-B590-29D6F5EC5C45}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\andun">
+      <UniqueIdentifier>{6EF2AC6D-979D-4CC3-9919-08AFA5A74858}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\andun\andun.Build.cs">
+      <Filter>Source\andun</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\andun\andun.cpp">
+      <Filter>Source\andun</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\andun\andun.h">
+      <Filter>Source\andun</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\andun\andunGameModeBase.cpp">
+      <Filter>Source\andun</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\andun\andunGameModeBase.h">
+      <Filter>Source\andun</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\andun\Control.cpp">
+      <Filter>Source\andun</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\andun\Control.h">
+      <Filter>Source\andun</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\andun\DungeonChar.cpp">
+      <Filter>Source\andun</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\andun\DungeonChar.h">
+      <Filter>Source\andun</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\andun\EncounterTrigger.cpp">
+      <Filter>Source\andun</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\andun\EncounterTrigger.h">
+      <Filter>Source\andun</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\andun\Enemy.cpp">
+      <Filter>Source\andun</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\andun\Enemy.h">
+      <Filter>Source\andun</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\andun\EnemyController.cpp">
+      <Filter>Source\andun</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\andun\EnemyController.h">
+      <Filter>Source\andun</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\andun\PlayerPawn.cpp">
+      <Filter>Source\andun</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\andun\PlayerPawn.h">
+      <Filter>Source\andun</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

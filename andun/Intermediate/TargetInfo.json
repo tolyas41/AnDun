@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "andun",
+			"Path": "C:\\Another Dungeon\\andun\\Source\\andun.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "andunEditor",
+			"Path": "C:\\Another Dungeon\\andun\\Source\\andunEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
