@@ -28,6 +28,6 @@ public:
 
 	void MoveForward(float Value);
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float Damage = 50.0f;
 };

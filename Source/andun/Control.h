@@ -27,7 +27,7 @@ private:
 	void SpawnArrow(FVector ArrowLocation);
 
 public:
-	UPROPERTY()
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool IsInBattle;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TSubclassOf<ASelectionArrow> ArrowClass;

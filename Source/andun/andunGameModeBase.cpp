@@ -24,7 +24,8 @@ void AandunGameModeBase::SpawnEnemy()
 {
 	int32 min_range = 1;
 	int32 max_range = 4;
-	int32 EnemyNumber = FMath::RandRange(min_range, max_range);
+	//int32 EnemyNumber = FMath::RandRange(min_range, max_range);
+	int32 EnemyNumber = max_range;
 
 	FVector SpawnLocation = UGameplayStatics::GetActorOfClass(GetWorld(), FirstHero)->GetActorLocation();
 	SpawnLocation.Y -= 200.0f;

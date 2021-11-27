@@ -36,4 +36,9 @@ public:
 
 	UFUNCTION()
 	void SpawnEnemy();
+
+	//bool IsFirstEnemyDead;
+	//bool IsSecondEnemyDead;
+	//bool IsThirdEnemyDead;
+	//bool IsFourthEnemyDead;
 };
